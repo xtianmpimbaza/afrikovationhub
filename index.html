@@ -82,7 +82,7 @@
                             <li><a class="nav-link" href="#advantage">Team</a></li>
                             <li><a class="nav-link" href="#partners">Partners</a></li>
                             <li><a class="nav-link" href="#blog">Events</a></li>
-                            <li><a class="nav-link" href="#contact">Get Involved</a></li>
+                            <li><a class="nav-link" href="#getinvolved">Get Involved</a></li>
                         </ul>
                     </div>
                 </div>
@@ -103,8 +103,7 @@
     <!-- == main content area starts == -->
     <div id="dtr-main-content">
 
-        <!-- hero section starts
-================================================== -->
+        <!-- hero section  =================================== -->
         <section id="home" class="dtr-section dtr-section-with-bg dtr-hero-section-top-padding bg-blue"
                  style="background-image: url(assets/images/banner-bg.png);">
 
@@ -198,7 +197,6 @@
         </section>
 
         <!-- ======================= ABOUT US =========================== -->
-
         <section id="about" class="dtr-section dtr-pt-100 dtr-pb-150 dtr-section-with-bg"
                  style="background-image: url(assets/images/section-bg-img1.jpg);"
         > <!-- blue overlay -->
@@ -321,8 +319,8 @@
 
             </div>
         </section>
-
         <br>
+
         <!-- Programs =========================================== -->
         <section id="services" class="dtr-sticky-tabs-wrapper">
 
@@ -573,7 +571,6 @@
         </section>
 
         <!-- testimonial section starts ============================= -->
-
         <section id="impact" class="dtr-section dtr-py-100 dtr-section-with-bg"
                  style="background-image: url(assets/images/section-bg-img2.jpg);"> <!-- blue overlay -->
             <div class="dtr-overlay dtr-overlay-blue"></div>
@@ -774,7 +771,6 @@
         </section>
 
         <!-- Team section =============================== -->
-
         <section class="section team dtr-pt-60 dtr-pb-50" id="advantage">
             <div class="container">
                 <div class="dtr-styled-heading text-center">
@@ -932,7 +928,6 @@
         </section>
 
         <!-- Partners section ================================ -->
-
         <section class="section donors no-padding-top dtr-pt-100 dtr-pb-70" id="partners">
             <div class="container">
 
@@ -1066,9 +1061,102 @@
             </div>
         </section>
 
-        <!-- contact section ====================================== -->
+        <!-- Get involved section ====================================== -->
+        <section id="getinvolved" class="dtr-section dtr-section-with-bg bg-grey" >
 
-        <section id="contact" class="dtr-section dtr-section-with-bg bg-blue color-white"
+            <!-- wrapping div for top shape image - easy to change color / no need to edit image - refer help doc -->
+            <div class="dtr-py-100 dtr-top-shape-img" style="background-image: url(assets/images/contact-section-top.svg);">
+                <div class="container">
+
+                    <!--== row starts ==-->
+                    <div class="row">
+
+                        <!-- heading starts -->
+                        <div class="dtr-styled-heading">
+                            <h2>Would like to get involved?</h2>
+                            <p class="color-dark">Donate subtitle, Thanks for donation.</p>
+                        </div>
+                        <!-- heading ends -->
+
+                        <!-- column 1 starts -->
+                        <div class="col-12 col-md-6">
+
+
+                            <!-- form starts -->
+                            <div class="dtr-form dtr-form-styled dtr-form-light-bg">
+                                <form id="donateform" method="post" action="php/contact-form.php">
+                                    <fieldset>
+
+                                        <!-- form two columns start -->
+
+                                        <!-- form two columns ends -->
+
+                                        <p class="dtr-form-field">
+                                            <span class="dtr-form-subtext">Your Name</span>
+                                            <input name="name" type="text" placeholder="Full name">
+                                        </p>
+                                        <p class="dtr-form-field">
+                                            <span class="dtr-form-subtext">Email Address</span>
+                                            <input name="email" class="required email" type="text"
+                                                   placeholder="user@email.com">
+                                        </p>
+
+                                        <p class="dtr-form-field">
+                                            <span class="dtr-form-subtext">Amount</span>
+                                            <input name="amount" id="amount" type="number" placeholder="Amount in USD">
+                                        </p>
+                                        <p class="antispam">Leave this empty: <br/>
+                                            <input name="url"/>
+                                        </p>
+                                        <p class="text-center">
+                                            <button class="dtr-btn btn-red w-100" id="donate"> Donate </button>
+                                        </p>
+<!--                                        <div id="result"></div>-->
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <!-- form ends -->
+                        </div>
+                        <!-- column 1 ends -->
+
+                        <!-- column 2 starts -->
+                        <div class="col-12 col-md-6">
+                            <div class="dtr-pl-10">
+                                <!--                                <img src="assets/images/illustration.png" alt="image"-->
+                                <!--                                                        class="small-device-space">-->
+<!--                                <h4 class="dtr-mt-10">Become a volunteer</h4>-->
+
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                                    nihil, eveniet aliquid culpa officia aut!
+                                </p>
+                                <div class="dtr-form-row dtr-form-row-2col clearfix">
+
+                                    <div class="dtr-form-field">
+                                        <p class="dtr-form-column">
+                                            <a href="#contact" class="dtr-btn btn-dark dtr-scroll-link dtr-mt-30 dtr-mr-40">Contact
+                                                Us </a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- column 2 ends -->
+
+                    </div>
+                    <!--== row ends ==-->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section ====================================== -->
+        <section id="contact" class="dtr-section dtr-section-with-bg bg-grey color-white"
                  style="background-image: url(assets/images/contact-bg.png);">
 
             <!-- wrapping div for top shape image - easy to change color / no need to edit image - refer help doc -->
@@ -1087,8 +1175,7 @@
                         <!-- heading ends -->
 
                         <!-- column 1 starts -->
-                        <div class="col-12 col-md-6">
-
+                        <div class="col-12 col-md-8">
 
                             <!-- form starts -->
                             <div class="dtr-form dtr-form-styled dtr-form-dark-bg">
@@ -1137,62 +1224,23 @@
                         <!-- column 1 ends -->
 
                         <!-- column 2 starts -->
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-4">
                             <div class="dtr-pl-10">
-                                <!--                                <img src="assets/images/illustration.png" alt="image"-->
-                                <!--                                                        class="small-device-space">-->
-                                <h4 class="dtr-mt-10">Become a volunteer</h4>
+                                <img src="assets/images/illustration.png" alt="image"
+                                     class="small-device-space">
 
-                                <p class="text-justify">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                                    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                                    tenetur error.
-                                </p>
-                                <h4 class="dtr-mt-10">Donate</h4>
-                                <div class="dtr-form-row dtr-form-row-2col clearfix">
-                                    <div class="dtr-form-column">
-                                        <p class="dtr-form-field">
-                                            <input name="amount" id="amount" type="number" placeholder="Amount in USD">
-                                        </p>
-                                    </div>
-                                    <div class="dtr-form-column">
-                                        <p class="dtr-form-field">
-                                            <button class="dtr-btn btn-red w-100" id="donate"> Donate <i
-                                                    class="icon-arrow-right-circle"></i></button>
-                                        </p>
-                                    </div>
-                                </div>
-                                <!--                                <div class="col-md-12">-->
-                                <!--                                    <div class="col-md-6">-->
-                                <!--                                        <p class="dtr-form-field">-->
-                                <!--                                            <input name="subject" type="text" placeholder="Amount">-->
-                                <!--                                        </p></div>-->
-                                <!--                                    <div class="col-md-6">-->
-                                <!--                                        <p class="text-center">-->
-                                <!--                                            <button class="dtr-btn btn-red w-100" type="submit"> Donate <i-->
-                                <!--                                                    class="icon-arrow-right-circle dtr-ml-10"></i></button>-->
-                                <!--                                        </p>-->
-                                <!--                                    </div>-->
-                                <!--                                </div>-->
-                                <!-- contact box starts -->
-                                <!--                                <div class="dtr-contact-box"><i class="icon-whatsapp"></i>-->
-                                <!--                                    <div class="dtr-contact-box-content color-white"><span-->
-                                <!--                                            class="dtr-contact-box-title color-white">Whatsapp</span> +256 705 270 204-->
-                                <!--                                    </div>-->
-                                <!--                                </div>-->
-                                <!-- contact box ends -->
 
-                                <!-- contact box starts -->
-                                <!--                                <div class="dtr-contact-box dtr-mt-20"><i class="icon-twitter"></i>-->
-                                <!--                                    <div class="dtr-contact-box-content color-white"><span-->
-                                <!--                                            class="dtr-contact-box-title color-white">Twitter</span> @oficial_work-->
-                                <!--                                    </div>-->
-                                <!--                                </div>-->
-                                <!-- contact box ends -->
+<!--                                <div class="dtr-contact-box"><i class="icon-whatsapp"></i>-->
+<!--                                    <div class="dtr-contact-box-content color-white"><span-->
+<!--                                            class="dtr-contact-box-title color-white">Whatsapp</span> +256 705 270 204-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                                <div class="dtr-contact-box dtr-mt-20"><i class="icon-twitter"></i>-->
+<!--                                    <div class="dtr-contact-box-content color-white"><span-->
+<!--                                            class="dtr-contact-box-title color-white">Twitter</span> @oficial_work-->
+<!--                                    </div>-->
+<!--                                </div>-->
 
                             </div>
                         </div>
